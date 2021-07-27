@@ -7,7 +7,7 @@
   <p>During EDA I explored missing values,crorelation between features along with outlier detection.I found out that some features were not normally distributed which is the main assumption of linear regression so I used log transformation to convert them. Check ames_missing_values dataset. Now During feature engineering I handled them carefully.</p>
   
   ## Training Process And Results 
-  <p> I used R2 score , MAE , RMSE as an evalution score. I have also used PCA in some models because without it hyperparameter training was very computer intensive and was taking a lot of time. I was suprised to see that PCA with SVR can give accuracy same as base SVR. At last I choose gradient boost and created a pickle file.</p>
+  <p> I used R2 score , MAE , RMSE as an evalution score. I have also used PCA in some models because without it hyperparameter training was very computer intensive and was taking a lot of time. I was suprised to see that PCA with SVR can give accuracy same as base SVR. At last I choose gradient boost and created a pickle file. In Advance house price prediction file you will see two plots Residual,Q-Q plot these plots indicate that how good a model is when it comes to prediction.</p>
   <pre> Linear Regression : Very bad results.
         MAE :  290974305.3431166
         RMSE : 6522582702.574113
